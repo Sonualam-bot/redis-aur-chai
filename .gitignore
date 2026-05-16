@@ -1,0 +1,52 @@
+# Redis build artifacts
+*.o
+*.lo
+*.a
+*.so
+*.d
+*.gcno
+*.gcda
+*.gcov
+*.elf
+*.exe
+
+# Build directories
+bin/
+obj/
+build/
+
+# Runtime files
+*.log
+*.pid
+*.rdb
+*.aof
+*.ldb
+*.rdb.old
+appendonly.aof
+
+# Local configuration and data
+redis.conf
+nodes.conf
+dump.rdb
+
+# IDE/editor files
+*.swp
+*.swo
+*~
+.DS_Store
+.idea/
+.vscode/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.env
+.venv
+
+# Misc
+coverage/
+*.tmp
+*.bak
+
+# Node modules
+node_modules/
